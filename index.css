@@ -1,0 +1,208 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	background: #0828CC;
+	color: white;
+	font-family: sans-serif;
+}
+
+.flex {
+	display: flex;
+}
+
+.flexcolumn {
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+	width: 100vw;
+	align-items: center;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+.invisionpresents {
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	bottom: 10%;
+	left: -3%;
+	transform: rotate(270deg);
+}
+.social {
+	list-style-type: none;
+	position: fixed;
+	bottom: 0;
+	right: 1%;
+}
+
+.header {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	width: 75%;
+	margin-left: 3%;
+}
+
+.subscribe {
+	border: 1px solid white;
+	border-radius: 30px;
+	padding: 15px 30px;
+	position: fixed;
+	top: 2%;
+	right: 10%;
+	font-size: 10px;
+	letter-spacing: 1.5px;
+}
+
+.invision {
+	position: fixed;
+	top: 4%;
+	right: 3%;
+}
+
+.logo {
+	position: fixed;
+	top: 0%;
+	left: 2%;
+}
+
+main {
+	height: 300vh
+}
+
+h1 {
+	font-size: 45px;
+}
+
+.about {
+	line-height: 2em;
+	width: 65%;
+	text-align: center;
+}
+
+.startexploring {
+	border: 1px solid white;
+	border-radius: 30px;
+	padding: 18px 38px;
+	background: white;
+	color: #0828CC;
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+.verticalline {
+	margin: 50px 0px 30px 0px;
+	width: 1px;
+	background: rgba(116, 116, 116, 0.735);
+	height: 40px
+}
+.horizontalline {
+	width: 30px;
+	background: rgba(116, 116, 116, 0.735);
+	height: 1px;
+	margin: 22px 12px 0px 0px;
+}
+
+.box1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(https://s3.amazonaws.com/designco-web-assets/uploads/2017/07/Podcast-large_2x-1450x1112.png);
+	height: 100vh;
+}
+.box2 {
+	margin: 0px;
+	padding-top: 100px;
+	background:white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+}
+
+.box3 {
+	background: white;
+	display: flex;
+	align-items: center;
+	color: black;
+}
+.box4 {
+	background: white;
+	display: flex;
+	align-items: center;
+	color: black;
+	height: 40vh
+}
+
+.box5 {
+	background: white;
+	display: flex;
+	align-items: center;
+	color: black;
+}
+
+.books {
+	font-size: 11px;
+	font-weight: bold;
+}
+.author {
+	font-size: 14px;
+}
+.book1 {
+	font-size: 11px;
+	font-weight: bold;
+	width: 20%;
+	align-self: center;
+	margin: 12px 0px 0px 10px;
+}
+
+.left {
+	width: 50%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.righttwo {
+	width: 50%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.right {
+	width: 50%;
+}
+.lefttwo {
+	width: 50%;
+}
+
+.bookreport {
+	line-height: 2em;
+	width: 65%;
+	text-align: left;
+	font-size: 1.2em;
+}
+
+.runners {
+	margin: 400px 50px 0 0;
+}
+
+.readthebook {
+	border: 1px solid white;
+	border-radius: 30px;
+	padding: 20px 10px;
+	background: #00838F;
+	color: white;
+	font-size: 10px;
+	font-family: sans-serif;
+	text-align: center;
+	width: 30%;
+}
